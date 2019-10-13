@@ -1,0 +1,9 @@
+#include <stdio.h>
+main()
+{
+printf("write temperature in fahrenheit: \n");
+float far_temp,degree_temp;
+scanf("%f",&far_temp);
+degree_temp =((far_temp - 32)*5)/9;
+printf("temperature in degree = %f",degree_temp);
+}
